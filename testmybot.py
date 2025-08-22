@@ -15,7 +15,7 @@ app = ApplicationBuilder().token('8192198859:AAEjumdnoYl2Q3xfREpynM3RRIWaJs8bMwo
 
 ADMINS = [ 6590055256 , 1428143946] 
 
-uri = 'mongodb://pratham82007:ILUVINDIA.8@ac-rl6xcgx-shard-00-00.lyxdumr.mongodb.net:27017,ac-rl6xcgx-shard-00-01.lyxdumr.mongodb.net:27017,ac-rl6xcgx-shard-00-02.lyxdumr.mongodb.net:27017/?ssl=true&replicaSet=atlas-13ain9-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0'
+uri = 'mongodb+srv://pratham82007:ILUVINDIA.8@cluster0.lyxdumr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 #init_user
 client = MongoClient(uri)
 db = client['mydatabase']
