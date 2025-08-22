@@ -17,7 +17,7 @@ ADMINS = [ 6590055256 , 1428143946]
 
 uri = 'mongodb+srv://pratham82007:ILUVINDIA.8@cluster0.lyxdumr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 #init_user
-client = MongoClient(uri)
+client = MongoClient(uri,tls=True)
 db = client['mydatabase']
 users = db['users']
 
